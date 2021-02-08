@@ -416,7 +416,8 @@ img{
        bottom: 15%;
     } 
     .bx{
-        width: 36px;
+/*         width: 36px; */
+           width:37px;
     }    
     .about_container{
         grid-template-columns: repeat(2,1fr);
@@ -429,10 +430,12 @@ img{
       .work_container{
           grid-template-columns: repeat(3,1fr);
           grid-template-rows: repeat(2,1fr);
-          column-gap: 2rem;
+/*           column-gap: 2rem; */
+           column-gap:3rem;
       }
       .contact_form{
-          width: 360px;
+/*           width: 360px; */
+             width:361px;
       }
       .contact_container{
           justify-items: center;
